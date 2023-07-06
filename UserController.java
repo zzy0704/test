@@ -18,6 +18,7 @@ public class UserController {
 
     @GetMapping("/insertTest")
     public void insertTest() throws ParseException {
+        int i = 1/0;
 //        for (int i = 1 ; i < 10; i++) {
 //            User test = new User("王"+i,"男","数据" + i,i,null);
 //            userMapper.insert(test);
